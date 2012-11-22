@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300B7DAB165EABF3009D44FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300B7DAA165EABF3009D44FF /* UIKit.framework */; };
+		300B7DAD165EABF3009D44FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300B7DAC165EABF3009D44FF /* Foundation.framework */; };
+		300B7DAF165EABF3009D44FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300B7DAE165EABF3009D44FF /* CoreGraphics.framework */; };
+		300B7DB5165EABF3009D44FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 300B7DB3165EABF3009D44FF /* InfoPlist.strings */; };
+		300B7DB7165EABF3009D44FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B7DB6165EABF3009D44FF /* main.m */; };
+		300B7DBB165EABF3009D44FF /* AGUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B7DBA165EABF3009D44FF /* AGUAppDelegate.m */; };
+		300B7DBD165EABF3009D44FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 300B7DBC165EABF3009D44FF /* Default.png */; };
+		300B7DBF165EABF3009D44FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 300B7DBE165EABF3009D44FF /* Default@2x.png */; };
+		300B7DC1165EABF3009D44FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 300B7DC0165EABF3009D44FF /* Default-568h@2x.png */; };
+		300B7DC4165EABF3009D44FF /* AGUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300B7DC3165EABF3009D44FF /* AGUViewController.m */; };
+		300B7DC7165EABF3009D44FF /* AGUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 300B7DC5165EABF3009D44FF /* AGUViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300B7DA6165EABF3009D44FF /* DynamicHeightCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicHeightCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300B7DAA165EABF3009D44FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		300B7DAC165EABF3009D44FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		300B7DAE165EABF3009D44FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		300B7DB2165EABF3009D44FF /* DynamicHeightCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicHeightCell-Info.plist"; sourceTree = "<group>"; };
+		300B7DB4165EABF3009D44FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		300B7DB6165EABF3009D44FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		300B7DB8165EABF3009D44FF /* DynamicHeightCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicHeightCell-Prefix.pch"; sourceTree = "<group>"; };
+		300B7DB9165EABF3009D44FF /* AGUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGUAppDelegate.h; sourceTree = "<group>"; };
+		300B7DBA165EABF3009D44FF /* AGUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGUAppDelegate.m; sourceTree = "<group>"; };
+		300B7DBC165EABF3009D44FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		300B7DBE165EABF3009D44FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		300B7DC0165EABF3009D44FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		300B7DC2165EABF3009D44FF /* AGUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGUViewController.h; sourceTree = "<group>"; };
+		300B7DC3165EABF3009D44FF /* AGUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGUViewController.m; sourceTree = "<group>"; };
+		300B7DC6165EABF3009D44FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AGUViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300B7DA3165EABF3009D44FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300B7DAB165EABF3009D44FF /* UIKit.framework in Frameworks */,
+				300B7DAD165EABF3009D44FF /* Foundation.framework in Frameworks */,
+				300B7DAF165EABF3009D44FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300B7D9B165EABF3009D44FF = {
+			isa = PBXGroup;
+			children = (
+				300B7DB0165EABF3009D44FF /* DynamicHeightCell */,
+				300B7DA9165EABF3009D44FF /* Frameworks */,
+				300B7DA7165EABF3009D44FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		300B7DA7165EABF3009D44FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300B7DA6165EABF3009D44FF /* DynamicHeightCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300B7DA9165EABF3009D44FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				300B7DAA165EABF3009D44FF /* UIKit.framework */,
+				300B7DAC165EABF3009D44FF /* Foundation.framework */,
+				300B7DAE165EABF3009D44FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		300B7DB0165EABF3009D44FF /* DynamicHeightCell */ = {
+			isa = PBXGroup;
+			children = (
+				300B7DB9165EABF3009D44FF /* AGUAppDelegate.h */,
+				300B7DBA165EABF3009D44FF /* AGUAppDelegate.m */,
+				300B7DC2165EABF3009D44FF /* AGUViewController.h */,
+				300B7DC3165EABF3009D44FF /* AGUViewController.m */,
+				300B7DC5165EABF3009D44FF /* AGUViewController.xib */,
+				300B7DB1165EABF3009D44FF /* Supporting Files */,
+			);
+			path = DynamicHeightCell;
+			sourceTree = "<group>";
+		};
+		300B7DB1165EABF3009D44FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				300B7DB2165EABF3009D44FF /* DynamicHeightCell-Info.plist */,
+				300B7DB3165EABF3009D44FF /* InfoPlist.strings */,
+				300B7DB6165EABF3009D44FF /* main.m */,
+				300B7DB8165EABF3009D44FF /* DynamicHeightCell-Prefix.pch */,
+				300B7DBC165EABF3009D44FF /* Default.png */,
+				300B7DBE165EABF3009D44FF /* Default@2x.png */,
+				300B7DC0165EABF3009D44FF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		300B7DA5165EABF3009D44FF /* DynamicHeightCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300B7DCA165EABF3009D44FF /* Build configuration list for PBXNativeTarget "DynamicHeightCell" */;
+			buildPhases = (
+				300B7DA2165EABF3009D44FF /* Sources */,
+				300B7DA3165EABF3009D44FF /* Frameworks */,
+				300B7DA4165EABF3009D44FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicHeightCell;
+			productName = DynamicHeightCell;
+			productReference = 300B7DA6165EABF3009D44FF /* DynamicHeightCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300B7D9D165EABF3009D44FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AGU;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = lintide;
+			};
+			buildConfigurationList = 300B7DA0165EABF3009D44FF /* Build configuration list for PBXProject "DynamicHeightCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 300B7D9B165EABF3009D44FF;
+			productRefGroup = 300B7DA7165EABF3009D44FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300B7DA5165EABF3009D44FF /* DynamicHeightCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300B7DA4165EABF3009D44FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300B7DB5165EABF3009D44FF /* InfoPlist.strings in Resources */,
+				300B7DBD165EABF3009D44FF /* Default.png in Resources */,
+				300B7DBF165EABF3009D44FF /* Default@2x.png in Resources */,
+				300B7DC1165EABF3009D44FF /* Default-568h@2x.png in Resources */,
+				300B7DC7165EABF3009D44FF /* AGUViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300B7DA2165EABF3009D44FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300B7DB7165EABF3009D44FF /* main.m in Sources */,
+				300B7DBB165EABF3009D44FF /* AGUAppDelegate.m in Sources */,
+				300B7DC4165EABF3009D44FF /* AGUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		300B7DB3165EABF3009D44FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300B7DB4165EABF3009D44FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		300B7DC5165EABF3009D44FF /* AGUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				300B7DC6165EABF3009D44FF /* en */,
+			);
+			name = AGUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		300B7DC8165EABF3009D44FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		300B7DC9165EABF3009D44FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		300B7DCB165EABF3009D44FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicHeightCell/DynamicHeightCell-Prefix.pch";
+				INFOPLIST_FILE = "DynamicHeightCell/DynamicHeightCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		300B7DCC165EABF3009D44FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DynamicHeightCell/DynamicHeightCell-Prefix.pch";
+				INFOPLIST_FILE = "DynamicHeightCell/DynamicHeightCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300B7DA0165EABF3009D44FF /* Build configuration list for PBXProject "DynamicHeightCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300B7DC8165EABF3009D44FF /* Debug */,
+				300B7DC9165EABF3009D44FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300B7DCA165EABF3009D44FF /* Build configuration list for PBXNativeTarget "DynamicHeightCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300B7DCB165EABF3009D44FF /* Debug */,
+				300B7DCC165EABF3009D44FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300B7D9D165EABF3009D44FF /* Project object */;
+}
